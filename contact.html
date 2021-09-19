@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ポートフォリオ用のデモサイト"> 
+  <title>デモサイト 株式会社Rec 「お問い合わせ」</title>
+  <!-- google-font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Oswald&display=swap" rel="stylesheet">
+   <!--AOS-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--css-->
+  <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+  <!-- headerエリア -->
+  <header class="header">
+    <div class="header-inner">
+     <h1 class="header-left" data-aos="fade-left">
+       <a href="index.html">
+         <div class="main-logo">
+           <img src="img/header-logo._wh.svg" alt="">
+          </div><!--header-logo-->
+          <div class="company-ttl">Rec INC.</div>
+        </a>
+     </h1>
+      <div class="header-nav">
+        <nav class="nav-list">
+          <ul class="header-nav-list" data-aos="fade-left">
+            <div class="main-logo_sp">
+              <a href="index.html">
+                <img src="img/header-logo._wh.svg" alt="">
+              </a>
+             </div><!--header-logo-->
+            <li class="nav-item">
+              <a href="#">REASON</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">NEWS</a>
+            </li>
+            <a href="contact.html" class="contact-btn">CONTACT</a>
+          </ul>
+        </nav>
+      </div><!--header-nav-->
+      <span class="burger-btn" data-aos="fade-left">
+        <span class="bar bar_top"></span>
+        <span class="bar bar_mid"></span>
+        <span class="bar bar_bottom"></span>
+      </span>
+      <span class="burger-musk"></span>
+    </div><!--header-inner-->
+  </header>
+  <!--fvエリア-->
+  <div class="fv" id="parallax">
+    <div class="fv-inner" id="parallax-img">
+      <div class="main-copy">
+        <p class="fv-ttl" data-aos="fade-left"><span class="orenge">C</span>ONTACT</p>
+      </div><!--main-copy-->
+    </div><!--fv-inner-->
+  </div><!--fv-->
+  <main class="main">
+    <section class="section-wrapper">
+      <div class="contact-container">
+        <h2 class="contact-ttl-wrapper">
+          <div class="contact-ttl">CONTACT</div><!--section-ttl-->
+          <div class="section-sub-ttl">お問い合わせ</div><!--section-sub-ttl-->
+        </h2><!--section-ttl-wrapper-->
+        <form action="" data-aos="fade-in"> 
+          <ul class="form-list">
+            <li class="form-item">
+              <div class="form-ttl">
+                <label for="name">名前</label>
+              </div><!--form-ttl-->
+              <input type="text" class="text-box">
+            </li>
+            <li class="form-item">
+              <div class="form-ttl">
+                <label for="tel">電話番号</label>
+              </div><!--form-ttl-->
+              <input type="text" class="text-box">
+            </li>
+            <li class="form-item">
+              <div class="form-ttl">
+                <label for="email">メールアドレス</label>
+              </div><!--form-ttl-->
+              <input type="text" class="text-box">
+            </li>
+            <li class="form-item">
+              <div class="form-ttl">
+                <label for="detail">お問い合わせ内容</label>
+              </div><!--form-ttl-->
+              <textarea name="textarea" id="" cols="30" rows="10" class="textarea"></textarea>
+            </li>
+          </ul><!--form-list-->
+          <input type="submit" value="送信する" class="link-btn submit-btn">
+        </form>
+      </div><!--contact-container-->
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <a href="#">
+          <h2 class="main-logo">
+            <img src="img/header-logo._wh.svg" alt="">
+          </h2>
+          <div class="company-ttl footer-ttl">Rec INC.</div>
+        </a>
+      </div><!--footer-left-->
+      <div class="company-info-wrapper">
+        <div class="company-info">
+          <p>〒000- 0000北海道帯広市大通1丁目 丸井ビル5階</p>
+          <p>TEL：012-345-6789 FAX：012-345-6780</p>
+          <p>rec@example.com</p>
+        </div><!--company-info-->
+        <div class="privacy-box">
+          <p><a href="#">サイトマップ</a></p>
+          <p><a href="#">プライバシーポリシー</a></p>
+          <p><a href="#">会社概要</a></p>
+        </div><!--privacy-box-->
+      </div><!--company-info-ttl-->
+    </div><!--footer-inner-->
+    <small class="copyright">©️Rec Inc.</small>
+  </footer>
+    <!-- AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
