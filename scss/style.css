@@ -436,7 +436,10 @@ a:hover {
   position: fixed;
   z-index: 99999;
 }
-
+.main-logo {
+  width: 45px;
+  height: 45px;
+}
 .header-inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1027,7 +1030,11 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
 }
-
+@media screen and (max-width: 768px) {
+  .footer-ttl {
+    display: none;
+  }
+}
 .company-info {
   margin-bottom: 3rem;
 }
